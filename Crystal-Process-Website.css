@@ -1,0 +1,107 @@
+html{
+	/*custom mouse from https://custom-cursor.com/en/collection/minimal-style/minimal-axolotl*/
+	cursor: url(https://cdn.custom-cursor.com/db/10520/32/minimal-axolotl-cursor.png) , default!important;
+}
+
+nav{
+	background-color: beige;
+	width: 100%;
+	height: 5vh;
+	padding-top: 20px;
+
+}
+
+/*.website-content{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-areas:
+	"header header"
+	"header header";
+}*/
+
+.background{
+	width: 100%;
+}
+
+a{
+	color: saddlebrown;
+	font-size: 14pt;
+	font-family: bilo,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-decoration-color: none;
+	-webkit-transition: color 1.5s;
+	transition: color 1s;
+}
+
+a:hover {
+	letter-spacing: 0.08em;
+	transition: 0.3s;
+	color: deeppink;
+}
+
+ul{
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 50px;
+}
+
+li{
+	color: pink;
+	list-style: none;	
+	display: inline-block;
+	margin-left: 1.3%;
+	align-content: space-evenly;
+}
+
+.project-icons{
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
