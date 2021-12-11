@@ -47,11 +47,6 @@ nav{
 
 a{
 	color: saddlebrown;
-	font-size: 14pt;
-
-/*	font-family: bilo,sans-serif;
-	font-weight: 700;
-	font-style: normal;*/
 	text-decoration: none;
 	text-decoration-color: none;
 	-webkit-transition: color 1.5s;
@@ -90,47 +85,50 @@ li{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 250px;
-	grid-row-gap: 30px;
+	grid-column-gap: 15%;
+	grid-row-gap: 3%;
 	grid-template-areas:
 	"content content"
 	"content content";
 	position: absolute;
 	z-index: 1;
-	padding-left: 10%;
-	padding-right: 10%;
+	width: 30%;
+	padding-top: 20%;
+	padding-left: 15%;
+
 }
 
 /*folder pop out on hover from https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/*/
 .folder{
 	transition: all .2s ease-in-out;
-	width: 20vw;
+	width: 100%;
 	grid-area: content;
+	margin: auto;
+	padding: auto;
 }
 
 .folder:hover{
 	transform: scale(1.1);
 }
-/*
-.blue-folder{
-	width: 20vw;
-	grid-area: content;
+
+h5{
+	color: saddlebrown;
+	font-family: nove,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
 }
 
-.pink-folder{
-	width: 20vw;
-	grid-area: content;
+.blue-folder{
+
 }
 
 .purple-folder{
-	width: 20vw;
-	grid-area: content;
-}*/
 
-h5{
-	font-family: mighty-slab,serif;
-	font-weight: 400;
-	font-style: normal;
+}
+
+.pink-folder{
+
 }
 
 
